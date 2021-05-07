@@ -1,0 +1,11 @@
+{
+    "extends": "@ni/eslint-config/typescript",
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "project": "tsconfig.json"
+    },
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+      "semi": "error"
+    }
+  }
